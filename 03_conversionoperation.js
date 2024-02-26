@@ -50,9 +50,8 @@
 // let conversion=((1+23)+"self")
 // console.log(conversion)
 
-
-// console.log(+true)//gives 1 in postfix
-// //console.log(true+)//gives error in prefix
+// console.log(+true)//gives 1 in prefix
+// //console.log(true+)//gives error in postfix
 // console .log(+"")//gives 0 in prefix
 // //console.log(""+)//gives error in postfix
 
@@ -70,7 +69,7 @@
 
 
 
-// //(here y increment in x++ and xalso increment in x+++(in postfix))
+//(here y increment in ++x and xalso increment in ++x(in prefix))
 // let x = 3;
 // let y=++x
 // console.log(x)
@@ -79,7 +78,7 @@
 
 // //(here y increment in x(not in x++) and x increment in x++(in prefix))
 // let z = 4;
-// let k=++z
+// let k=z++
 // console.log(z)
 // console.log(k)
 

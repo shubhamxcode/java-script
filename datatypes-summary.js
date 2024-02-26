@@ -12,7 +12,7 @@
 
 // //non primitiv
 // //ARRAY
-// const hero=['skatiman','indian army']//array are in square bracket
+const hero=['skatiman','indian army']//array are in square bracket
 // //OBJECT
 // // {
 // //     name:"shubham"
@@ -23,7 +23,6 @@
 //     name:"shubham",
 //     age:18,
 // }
-// // let myfunction=function(){c
+// // let myfunction=function(){
 // //     console.log('hello world')
 // // }
-// console.log(typeof(identity));
