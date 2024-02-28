@@ -4,9 +4,9 @@
 //non primitive(reference)
 //3types:arrays,function,object
 
-// const id=Symbol(23)
-// const anotherid=Symbol(23)
-// console.log(id===anotherid)  //there  return values are different
+const id=Symbol(23)
+const anotherid=Symbol(23)
+console.log(id===anotherid) //there  return values are different
 
 // const bignum=123312123232312321311312313131123131313131323242323n
 
