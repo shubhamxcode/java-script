@@ -19,10 +19,10 @@
 // let indd=new Date("3-6-2024")//01 se start hoti hai month
 // console.log(indd.toLocaleString()) 
 
-// let inddd = new Date('2024,2,29');
-// console.log(inddd.getMonth()+1);//0 se satrt ho raha hai
-// console.log(inddd.getDay())//monday-0.......friday-4
-// console.log(inddd.getFullYear());
+let inddd = new Date('2024,2,29');
+console.log(inddd.getMonth()+1);//0 se satrt ho raha hai
+console.log(inddd.getDay())//monday-0.......friday-4
+console.log(inddd.getFullYear());
 
 
 let hh=new Date(2024,2,29);
