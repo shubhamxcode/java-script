@@ -4,6 +4,7 @@
 const value=new Number(900)
 console.log(value)
 console.log(value.toString().length)//number string me convert ho jayega then hum string ki property applly kar skate hai
+console.log(typeof(value))
 console.log(value.toFixed(2))//agge 2 zero laga dega 
 
 const othernumber=8823.22

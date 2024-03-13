@@ -9,8 +9,8 @@ console.log(allheroes)//it combine two arrays
 const newhero=[...marvel,...dc]// easy way 
 console.log(newhero)
 
-const arayinaray=[2,21,2,[13,2,3],23,2,[21,22,2,[6,54,3]]]
-const newarrray=arayinaray.flat(2);//where 2 is called depth and we can use infinity as well it take automatic calculated depth
+const arayinaray=[2,21,2,[13,2,3],23,2,[21,22],2,[6,54,3]]
+const newarrray=arayinaray.flat(Infinity);//where 2 is called depth and we can use infinity as well it take automatic calculated depth
 console.log(newarrray)
 
 console.log(Array.isArray('shubham'))//false
