@@ -31,11 +31,39 @@
 // }
 // console.log(loginusermessage())
 //username in if statement taken as false value and (!)are use to convert false value into true value and true value convert into false value 
-function loginusermessage(username= "sam"){
-    if(!username){
-        console.log("please enter your username")
-        return
-    }
-    return `${username} just looged in `
-}
-console.log(loginusermessage())
+// function loginusermessage(username= "sam"){
+//     if(!username){
+//         console.log("please enter your username")
+//         return
+//     }
+//     return `${username} just looged in `
+// }
+// console.log(loginusermessage())
+
+
+// function calculatecartprice(var1,var2,...num){//... called rest operator
+//     return num
+// }
+// console.log(calculatecartprice(200,300,400))
+
+// const user={
+//     username:"shubham",
+//     price:3242
+// }
+// function handleobject(system){
+//     console.log(`username is ${system.username} and price is ${system.price}`)
+// }
+// handleobject(user)
+// handleobject({
+//     username:"shubh",
+//     price:800
+// })
+// // console.log(handleobject)
+
+// const myarray=[2143,2342,23]
+
+// function returnsecondvalue(getarray){
+//     return getarray[2]
+// }
+// console.log(returnsecondvalue([21232,232,32]))
+// console.log(returnsecondvalue(myarray))
