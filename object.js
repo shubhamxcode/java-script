@@ -1,16 +1,16 @@
-// singleton 
-// object literals 
+// // singleton 
+// // object literals 
 const user2=Symbol('key1')
 const user={
     name:'shubham',//key are taken as string 
     age:18,
     emailid:'0231ite125@gmail.com',
-    "ser name":"shubham varshney",
+    "sername":"shubham varshney",
     [user2]:'key1',// this is the currect syntax for sybol it take as a key
 }
-console.log(user.emailid)//we can accese by this method but this is not the right method do accese object 
-console.log(user['emailid'])//currect method
-// console.log(user.ser name)//key me jab space ke sath hum variable declare karte hai to axcess nhi hota .use kar ke 
+// console.log(user.emailid)//we can accese by this method but this is not the right method do accese object 
+// console.log(user['emailid'])//currect method
+console.log(user.sername)//key me jab space ke sath hum variable declare karte hai to axcess nhi hota .use kar ke 
 console.log(user[user2])
 console.log( typeof user[user2])
 

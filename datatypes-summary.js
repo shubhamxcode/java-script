@@ -1,4 +1,4 @@
-//primitive datatypes(call by value)
+//primitive datatypes(call by value)(copy me changes hote hai)
 //7 types: string ,boolean,number,symbols,undefine,bigint,null
 
 //non primitive(reference)

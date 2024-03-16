@@ -1,22 +1,22 @@
- const score=800
- console.log(score)
+//  const score=800
+//  console.log(score)
 
-const value=new Number(900)
-console.log(value)
-console.log(value.toString().length)//number string me convert ho jayega then hum string ki property applly kar skate hai
-console.log(typeof(value))
-console.log(value.toFixed(2))//agge 2 zero laga dega 
+// const value=new Number(900)
+// console.log(value)
+// console.log(value.toString().length)//number string me convert ho jayega then hum string ki property applly kar skate hai
+// console.log(typeof(value))
+// console.log(value.toFixed(2))//agge 2 zero laga dega 
 
-const othernumber=8823.22
-console.log(othernumber.toPrecision(4))//(round off kardega)it range from 1 to 21 and return value will we in strig
+// const othernumber=8823.22
+// console.log(othernumber.toPrecision(4))//(round off kardega)it range from 1 to 21 and return value will we in strig
 
-const largezero=5000000
-console.log(largezero.toLocaleString('en-in'))//default value usa and we make it indian
+// const largezero=5000000
+// console.log(largezero.toLocaleString('en-in'))//default value usa and we make it indian
 
-console.log(Number.MAX_VALUE); // Outputs: 1.7976931348623157e+308
-console.log(Number.MIN_VALUE); // Outputs: 5e-324
-console.log(Number.MIN_SAFE_INTEGER); // Outputs: -9007199254740991
-console.log(Number.MAX_SAFE_INTEGER); // Outputs: 9007199254740991
+// console.log(Number.MAX_VALUE); // Outputs: 1.7976931348623157e+308
+// console.log(Number.MIN_VALUE); // Outputs: 5e-324
+// console.log(Number.MIN_SAFE_INTEGER); // Outputs: -9007199254740991
+// console.log(Number.MAX_SAFE_INTEGER); // Outputs: 9007199254740991
 
 
 // //+++++++++++++++++++++++++++++++++//MATH++++++++++++++++++++++++++++++++++++++++++++++++++++++

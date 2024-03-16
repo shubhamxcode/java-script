@@ -14,7 +14,7 @@ const newarrray=arayinaray.flat(Infinity);//where 2 is called depth and we can u
 console.log(newarrray)
 
 console.log(Array.isArray('shubham'))//false
-console.log(Array.from('shubham'))//change into array
+console.log(Array.from('shubham'))//change into array in parts
 console.log(Array.from({name:'shubham'}))//it show []empty couse got consfuse key ko array banu ya value ko (name -key)(shubham-variable)
 
 

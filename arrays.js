@@ -1,7 +1,7 @@
-// const array=[2,3,332,23,43,true,'shubham']//0 se start hota hai
-// console.log(array[0]) 
-// //mutable,object type 
-// //array copy operation
+const array=[2,3,332,23,43,true,'shubham']//0 se start hota hai
+console.log(array[0]) 
+//mutable,type object
+//array copy operation
 // (1)shallow copy ( original copy) just like heap
 // (1)deap copy ( nonoriginal copy) just like stack
 
@@ -16,7 +16,7 @@ console.log(myaaray)
 myaaray.shift()//starting me se 9 ko remove kar dega 
 console.log(myaaray)
 console.log(myaaray.includes(6))//gives value in bollean 
-console.log(myaaray.indexOf(3))// agar value hogi to bo position bata dega.. agar value exist nahi karti to -1 show karega 
+console.log(myaaray.indexOf(6)+1)// agar value hogi to bo position bata dega.. agar value exist nahi karti to -1 show karega 
 
 const newarrray=myaaray.join()
 console.log(newarrray)//output string me dega and datatype bhi string ban jayega 
@@ -29,8 +29,8 @@ const my1= myaarays.slice(1,3)//3 include nhi hoga
 console.log(my1)
 console.log('B', myaarays)
 const my2=myaarays.splice(1,3)//3 include hoga 
-console.log('c',myaarays)
 console.log(my2)
+console.log('c',myaarays)
 // interviw q( difference between slice and splice )
 // in slice does not incrlude range 
 // in splice splice part are remove 
