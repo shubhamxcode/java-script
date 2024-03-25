@@ -22,7 +22,7 @@ for (let index = 0; index <=10; index++) {
 
 const myarray=['shubham','varshney','Aditya','varshney']
 
-for (let index = 0; index <myarray.length; index++) {//it show undefined couse it out of array
+for (let index = 0; index <=myarray.length; index++) {//it show undefined couse it out of array
     const element = myarray[index];
     console.log(element)
     
