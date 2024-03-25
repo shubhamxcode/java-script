@@ -17,7 +17,7 @@ switch (Name) {
         console.log("shubham varshney bhai")
         break;
     case "shubham":
-        console.log("shubham varshney is my name")
+        console.log("shubham varshney is my name2")
         break;
     default:
         console.log("shubham varshney is my name")
