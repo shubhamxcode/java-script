@@ -4,7 +4,7 @@ for (const greet of greetings) {
     if(greet==" "){
         continue
     }
-    //console.log(`gretings are ${greet}`)
+    console.log(`gretings are ${greet}`)
 }
 
 // maps(unique value)
@@ -14,7 +14,7 @@ map.set('fr','franch')
 console.log(map)
 
 for (const [k,v] of map) {
-    // console.log(k)//it give out put in array 
+    // console.log([k])//it give out put in array 
     console.log(k,"_",v)
     
 }
@@ -30,7 +30,7 @@ for (const key in myobj) {
 
 const programming=['py','html','j.s','css']
 for (const key in programming) {
-    console.log(programming[key])
+    console.log(programming([key]))
 }
 
 const maps=  new Map()

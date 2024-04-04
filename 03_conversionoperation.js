@@ -70,15 +70,15 @@ console.log(game)//gives 101 in prefix
 
 
 // (here y increment in ++x and xalso increment in ++x(in prefix))
-let x = 3;
-let y=++x
-console.log(x)
-console.log(y)
+// let x = 3;
+// let y=++x
+// console.log(x)
+// console.log(y)
 
 
 //(here y increment in x(not in x++) and x increment in x++(in prefix))
-let z = 4;
-let k=z++
+let x = 4;
+let y=z++
 console.log(z)
 console.log(k)
 

@@ -16,7 +16,10 @@ console.log(game.charAt(4))//it tells about letter of string
 console.log(game.indexOf('h'))//it tells about position of string
 const varshney=game.substring(0,4)//0,3 tak jayega//but we cannot use -ve sign
 console.log(varshney)
-const developer=game.slice(-5,4)//we can use negative value as well
+const developer=game.slice(-5,4)//we can use negative value aonsole.log(addtwo())//we cannot acces before declaration when we declare in variable
+// const addtwo=function(num){
+//     return num+1
+// }s well
 console.log(developer)
 const newstring='  shubham  '
 console.log(newstring)

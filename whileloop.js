@@ -1,5 +1,5 @@
 let sher=0
-while (sher<=10) {
+while (sher>=10) {
     console.log(`value of sher ${sher}`);
     sher=sher+1
     
@@ -12,11 +12,10 @@ while (arrays<condition.length) {
     arrays=arrays+1
 }
 
-let score=10
+let score=0
 do{
     console.log(`value of score is${score}`)
-    score+5
-
-}while(score>=12){//kamm pehle hoga condition badd me check hogi
-
+    score++
+}while(score<=12){//kamm pehle hoga condition badd me check hogi
+    console.log(`shubham`)
 }
