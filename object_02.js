@@ -36,7 +36,7 @@ const user=[
     },
 ]
 
- console.log (user[1].id)// confusion hai isme 
+ console.log (user[1].id)
 
 console.log(tinderuser)
 console.log(Object.keys(tinderuser))//datatype array very imp 

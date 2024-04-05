@@ -1,24 +1,24 @@
-// const useremail=''
-// if(useremail){
-//     console.log("yes he is logged in")
-// }else{
-//     console.log("no he is not log in")
-// }
-// // falshy value  
-// // false,0,-0,BigInt 0n,"",null,undefined,NaN
-// // truthy value
-// // "0","etc...","flase"," "(space),{},[],function(){0}
+const useremail=''
+if(useremail){
+    console.log("yes he is logged in")
+}else{
+    console.log("no he is not log in")
+}
+// falshy value  
+// false,0,-0,BigInt 0n,"",null,undefined,NaN
+// truthy value
+// "0","etc...","flase"," "(space),{},[],function(){0}
 
-// if (useremail.length===0) {
-//     console.log("array is empty")//this is the method to check the empty array
-// }
-// const emptyObj={}
-// if(Object.keys(emptyObj).length===0){
-//     console.log("object is empty")
-// }
-//  console.log(false==0)//it show true in inspect
-// false=="" //it show true in inspect
-// 0==""//it show true in inspect
+if (useremail.length===0) {
+    console.log("array is empty")//this is the method to check the empty array
+}
+const emptyObj={}
+if(Object.keys(emptyObj).length===0){
+    console.log("object is empty")
+}
+ console.log(false==0)//it show true in inspect
+false=="" //it show true in inspect
+0==""//it show true in inspect
 
 // Nullish coalescing operator(??)
 let val1;
