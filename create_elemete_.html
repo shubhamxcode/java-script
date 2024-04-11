@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="FileSystem">
+        //shubham
+        <div class="myname">shubham</div>
+        <div class="myname">varshney</div>
+        <div class="myname">hai</div>
+        <div class="myname">name</div>
+    </div>
+    
+</body>
+<script>
+    const myelement=document.querySelector(".FileSystem")
+    console.log(myelement)
+    console.log(myelement.children[0].innerHTML)//child gives htmlcollection
+
+
+    for (let index = 0; index<myelement.children.length; index++) {
+        const yup=console.log(myelement.children[index].innerHTML);
+        console.log(yup)
+    }
+    myelement.children[1].style.color="blue"
+    // console.log(myelement.firstElementChild)
+    // console.log(myelement.lastElementChild)
+    const dayone=document.querySelector('.myname')
+    // console.log(dayone)
+    // console.log(dayone.parentElement)
+    // console.log(dayone.nextElementSibling)
+    console.log("nodes:",myelement.childNodes)//there is 9 node in parent element 4 name and it include enter as a node so there is 9 nodes but it count only one line break
+
+
+    // console.log(myelement)
+</script>
+</html>
