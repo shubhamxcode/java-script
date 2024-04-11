@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="papa">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addingtext(texts) {
+        const myli=document.createElement('li');
+        myli.innerHTML=`${texts}`
+        const yup=document.querySelector('.papa')
+        yup.append(myli)
+    }
+    addingtext("python")
+    function optimisewayofcode(geeks) {
+        const myli=document.createElement('li');
+        myli.appendChild(document.createTextNode(geeks))
+        document.querySelector('.papa').
+        appendChild(myli)
+        
+    }
+    optimisewayofcode("system")
+    //EDIT
+    const secondlang=document.querySelector("li:nth-child(2)")
+    // secondlang.textContent='shubham'//method 1
+    const newli=document.createElement("li")
+    newli.textContent='elvishyadav'
+    secondlang.replaceWith(newli)
+    //edit
+    const yeh=document.querySelector("li:first-child");
+    yeh.outerHTML='<li>huehue</li>';
+
+    //remove
+    const yes=document.querySelector("li:last-child");
+    yes.remove()
+</script>
+</html>
