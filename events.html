@@ -19,13 +19,13 @@
    </div>
 </body>
 <script>
-    document.getElementById('owl').onclick=(function(e){//function(e)-eventobject
+    document.getElementById('owl').onclick=(function(e){//function(e)=eventobject
         alert("owl alert")//this is not the write method
     },false)//by default false hota hai
     document.getElementById('images').addEventListener('click',function(e){// this is right method to write code 
         // alert("owl clicked")
         console.log("system bhai")
-    },false);//this true false value called eventpropogation(they have 2 context one is event bublin and 2nd one is eventcapturing(false value called eventbubbling))(true is called eventcapturing)
+    },false);//this true false value called eventpropogation(they have 2 context one is event bubling and 2nd one is eventcapturing(false value called eventbubbling))(true is called eventcapturing)
     document.getElementById('owl').addEventListener('click',function(t){
         console.log("owl is clicked")
         t.stopPropagation()//bubble upar nhi jayega 
@@ -33,7 +33,7 @@
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
-    // altkey, ctrlkey, shiftkey, keyCode
+    // altkey, ctrlkey, shiftkey, keyCode 
     document.getElementById('google').addEventListener('click',function(chai){
         chai.preventDefault()
         console.log('yes papa')
@@ -43,7 +43,7 @@
         console.log('yes budy')
     },false)
     document.getElementById('images').addEventListener('click',function(chai){
-        chai.preventDefault()
+        chai.preventDefault() 
         console.log('system hai bhai')
     },false)
     document.querySelector('#images').addEventListener('click',function(chai){

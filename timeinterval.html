@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai or code with shubham</title>
+</head>
+<body>
+    <h1>chai or code with shubham</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    //setTimeout (handler,timehandler)
+    const sayshubham=function(){
+        document.querySelector('h1').innerHTML="system hai bhai"
+    }
+    setTimeout(sayshubham,6000)//we give it refrence to settimeout after 6 sec text will change 
+    const sayhelloworld=function(){//timeout print only once 
+        console.log("hello world")
+    }
+    const clearitnow=setInterval(sayhelloworld,2000)//set interval continue printing hello world 
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(clearitnow)//same as cleartimeout
+        console.log("mamla clear hai boss")
+    })
+</script>
+</html>

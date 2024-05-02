@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai or code</title>
+</head>
+<body>
+    <h1>chai or code with me</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+</body>
+<script>
+    const randomcolor=function(){
+    const hex="0123456789ABCDEF"//hex value range
+    let color='#'
+    for (let i = 0; i < 6; i++) {
+    color+=hex[Math.floor(Math.random()*16)]
+    }
+    return color 
+    }
+    let interval;
+    const startcolor=function(){
+        
+        const changecolor=function(){
+            document.body.style.backgroundColor=randomcolor();
+        }
+        if (!interval) {
+            interval=setInterval(changecolor,1000)  
+        }
+    }
+    const stopcolor=function(){
+        clearInterval(interval)
+        interval=null;// why doing this we can save memory
+    }
+    document.querySelector('#start').addEventListener('click',startcolor);
+    document.querySelector('#stop').addEventListener('click',stopcolor);
+</script>
+</html>
