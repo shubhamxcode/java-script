@@ -49,3 +49,7 @@ const usergoogle=false
 if(useremail || usergoogle){//(|| pipe sign and it called or)
     console.log(`yes he is logged in`)
 }
+// ternary operator
+let age = 18;
+let canVote = (age >= 18) ? "Yes, you can vote." : "No, you cannot vote.";
+console.log(canVote); // Output: Yes, you can vote.

@@ -34,6 +34,9 @@
 // })
 // console.log(proprmisesthree)//pending
 
+const { default: axios } = require("axios");
+const { load } = require("cheerio");
+
 // const promisefour=new Promise(function(resolve,reject){
 //     let error=true;
 //     if (!error) {
@@ -89,11 +92,12 @@
 // }
 // getuserdata()
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((resolve)=>{
-    return resolve.json()
-}).then((e)=>{
-    console.log(e)
-}).catch((error)=>{
-    console.log("error",error)
-})
+// fetch('https://reqres.in/api/user')
+// .then((resolve)=>{
+//     return resolve.json()
+// }).then((e)=>{
+//     console.log(e)
+// }).catch((error)=>{
+//     console.log("error",error)
+// })
+

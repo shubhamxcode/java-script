@@ -25,10 +25,10 @@
     document.getElementById('images').addEventListener('click',function(e){// this is right method to write code 
         // alert("owl clicked")
         console.log("system bhai")
-    },false);//this true false value called eventpropogation(they have 2 context one is event bubling and 2nd one is eventcapturing(false value called eventbubbling))(true is called eventcapturing)
+    },true);//this true false value called eventpropogation(they have 2 context one is event bubling and 2nd one is eventcapturing(false value called eventbubbling))(true is called eventcapturing)
     document.getElementById('owl').addEventListener('click',function(t){
         console.log("owl is clicked")
-        t.stopPropagation()//bubble upar nhi jayega 
+        // t.stopPropagation()//bubble upar nhi jayega 
     },false);
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
@@ -37,11 +37,11 @@
     document.getElementById('google').addEventListener('click',function(chai){
         chai.preventDefault()
         console.log('yes papa')
-    },false)
+    },true)
     document.getElementById('papa').addEventListener('click',function(chai){
         chai.preventDefault()
         console.log('yes budy')
-    },false)
+    },true)
     document.getElementById('images').addEventListener('click',function(chai){
         chai.preventDefault() 
         console.log('system hai bhai')

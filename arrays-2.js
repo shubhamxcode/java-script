@@ -1,10 +1,10 @@
 const marvel=['spiderman','thor','ironman']
 const dc=['batman','flash','superman']
-marvel.push(dc)
-console.log(marvel)//it took as a array as a data
-console.log(marvel[3][2])
-const allheroes=marvel.concat(dc)//new variable declare karna padega pehle to use concate 
-console.log(allheroes)//it combine two arrays
+// marvel.push(dc)
+// console.log(marvel)//it took as a array as a data
+// console.log(marvel[3][2])
+// const allheroes=marvel.concat(dc)//new variable declare karna padega pehle to use concate 
+// console.log(allheroes)//it combine two arrays
 
 const newhero=[...marvel,...dc]// easy way 
 console.log(newhero)

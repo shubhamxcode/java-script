@@ -1,132 +1,132 @@
-// for of loop
-const greetings="Hello World!"
-for (const greet of greetings) {
-    if(greet==" "){
-        continue
-    }
-    console.log(`gretings are ${greet}`)
-}
+// // for of loop
+// const greetings="Hello World!"
+// for (const greet of greetings) {
+//     if(greet==" "){
+//         // continue
+//     }
+//     console.log(`gretings are ${greet}`)
+// }
 
-// maps(unique value)
-const map=  new Map()
-map.set('in','india')
-map.set('fr','franch')
-console.log(map)
+// // maps(unique value)
+// const map=  new Map()
+// map.set('in','india')
+// map.set('fr','franch')
+// console.log(map)
 
-for (const [k,v] of map) {
-    // console.log([k])//it give out put in array 
-    console.log(k,"_",v)
+// for (const [k,v] of map) {
+//     // console.log([k])//it give out put in array 
+//     console.log(k,"_",v)
     
-}
+// }
 
 
-const myobj={//for in loops use for object and other as well to excess key value pairs
-    js:'javascript',
-    py:'python',
-}
-for (const key in myobj) {
-    console.log(`${key}-for ${myobj[key]}`);
-}
+// const myobj={//for in loops use for object and other as well to excess key value pairs
+//     js:'javascript',
+//     py:'python',
+// }
+// for (const key in myobj) {
+//     console.log(`-for ${myobj[key]}`);
+// }
 
-const programming=['py','html','j.s','css']
-for (const key in programming) {
-    console.log(programming([key]))
-}
+// const programming=['py','html','j.s','css']
+// for (const key in programming) {
+//     console.log(programming([key]))
+// }
 
-const maps=  new Map()
-map.set('in','india')
-map.set('fr','franch')
-for (const key in maps) {
-    console.log(key)
-}//map are not iterable so we cannot excess it by forin loop
-
-
+// // const maps=  new Map()
+// // map.set('in','india')
+// // map.set('fr','franch')
+// // for (const key in maps) {
+// //     console.log(key)
+// // }//map are not iterable so we cannot excess it by forin loop
 
 
 
-// +++++++++++++++++++=for each loop[high order]+++++++++++++++++++++++++++++++++++++
-const coding=['java','python','ruby','java script']
-coding.forEach(function(elements){
-    console.log(elements)
-})
 
-coding.forEach((elements)=>{
-    console.log(elements)
-})
 
-function elvishyadav(system){
-    console.log(system)
-}
-coding.forEach(elvishyadav)
+// // // +++++++++++++++++++=for each loop[high order]+++++++++++++++++++++++++++++++++++++
+// // const coding=['java','python','ruby','java script']
+// // coding.forEach(function(elements){
+// //     console.log(elements)
+// // })
 
-coding.forEach((elements,index,arr)=>{
-    console.log(elements,index,arr)
-})
+// // coding.forEach((elements)=>{
+// //     console.log(elements)
+// // })
 
-const mylanguage=[
-    {
-        filename:'j.s',
-        file:'javascript'
+// // function elvishyadav(system){
+// //     console.log(system)
+// // }
+// // coding.forEach(elvishyadav)
 
-    },
-    {
-        morefile:'j.s',
-        yes:'javascript'
+// // coding.forEach((elements,index,arr)=>{
+// //     console.log(elements,index,arr)
+// // })
 
-    },
-    {
-        filenames:'j.s',
-        files:'javascript'
+// // const mylanguage=[
+// //     {
+// //         filename:'j.s',
+// //         file:'javascript'
 
-    }
-]
-mylanguage.forEach((item)=>{
-    console.log(item.file)
-})
+// //     },
+// //     {
+// //         morefile:'j.s',
+// //         yes:'javascript'
 
-const codingislove=['python','java','javascript','ruby','sql']
-const shubham=codingislove.forEach((item)=>{
-    // console.log(item);
-    return item 
-})
-console.log(shubham)
+// //     },
+// //     {
+// //         filenames:'j.s',
+// //         files:'javascript'
 
-const mynum=[1,2,3,4,5,6,7,8,9,10]
-const merenumber=mynum.filter((item)=> item>4)
-console.log(merenumber)
+// //     }
+// // ]
+// // mylanguage.forEach((item)=>{
+// //     console.log(item.file)
+// // })
 
-// 2nd method by for each
+// // const codingislove=['python','java','javascript','ruby','sql']
+// // const shubham=codingislove.forEach((item)=>{
+// //     // console.log(item);
+// //     return item 
+// // })
+// // console.log(shubham)
 
-const nothing=[]
-mynum.forEach((item)=>{
-    if (item>4) {
-        nothing.push(item)
-    }
-})
+// // const mynum=[1,2,3,4,5,6,7,8,9,10]
+// // const merenumber=mynum.filter((item)=> item>4)
+// // console.log(merenumber)
 
-console.log(nothing)
+// // // 2nd method by for each
 
-const books=[
-    {
-        title:'book one',genre:'finction',publish:1981
-    },
-    {
-        title:'book two',genre:'history',publish:1981
-    },
-    {
-        title:'book three',genre:'science',publish:2000
-    },
-    {
-        title:'book four',genre:'finction',publish:2001
-    },
-];
+// // const nothing=[]
+// // mynum.forEach((item)=>{
+// //     if (item>4) {
+// //         nothing.push(item)
+// //     }
+// // })
 
-const mybooks=books.filter((Element)=>{
-    return Element.genre ==='history'&& Element.publish===1981
+// // console.log(nothing)
+
+// const books=[
+//     {
+//         title:'book one',genre:'finction',publish:1981
+//     },
+//     {
+//         title:'book two',genre:'history',publish:1981
+//     },
+//     {
+//         title:'book three',genre:'science',publish:2000
+//     },
+//     {
+//         title:'book four',genre:'finction',publish:2001
+//     },
+// ];
+
+// const mybooks=books.filter((Element)=>{
+//     return Element.genre ==='history'&& Element.publish===1981
     
-})
+// })
 
-console.log(mybooks)
+// console.log(mybooks)
 
 
 const myallnum=[1,2,3,4,5,6,7,8,9,10]
