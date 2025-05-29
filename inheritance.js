@@ -3,14 +3,12 @@ class user{
     constructor(username,email,password){
         this.username=username
     }
-    logme(){
-        console.log(`username is ${this.username}`);
-    }
+   
 }
 
 class teacher extends user{//extends behave as prototype 
     constructor(username,email,password){//super keyword only called as once 
-        super(username)
+        super(username) 
         this.email=email
         this.password=password
     }
@@ -23,9 +21,9 @@ const shubham=new teacher("shubham","shubham@gmail.com",123)
 
 shubham.addcourse()
 
-const masala=new user("chai")
-masala.addcourse()//noexcess
-// masala.teacher()//noexcess
-masala.logme()
-// shubham.logme()//excess hai
-console.log(shubham instanceof user);
+// const masala=new user("chai")
+// masala.addcourse()//noexcess
+// // masala.teacher()//noexcess
+// masala.logme()
+// // shubham.logme()//excess hai
+// console.log(shubham instanceof user);

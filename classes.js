@@ -10,6 +10,6 @@ class user{
         return `${this.username}`
     }
 }
-
+ 
 const chai=new user("shubham","123","shubham@gmail.com")
 console.log(chai.encryptpassword());

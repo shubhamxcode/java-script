@@ -5,8 +5,8 @@
 //3types:arrays,function,object
 
 const id=Symbol(28)
-console.log(id===anotherid)
 const anotherid=Symbol(28)
+console.log(id===anotherid)
 console.log(anotherid===id) //there  return values are different
 
 // const bignum=123312123232312321311312313131123131313131323242323n

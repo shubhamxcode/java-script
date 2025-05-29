@@ -37,37 +37,37 @@
 const { default: axios } = require("axios");
 const { load } = require("cheerio");
 
-// const promisefour=new Promise(function(resolve,reject){
-//     let error=true;
-//     if (!error) {
-//         resolve({username:'shubhamvarshney',password:123})
-//     }else{
-//         reject("error:404")
-//     }
-// })
-//  promisefour
-//  .then(function(user){
-//     console.log(user)
-//     return user.username
-//  }).then((username)=>{
-//     console.log(username);
-//  }).catch((error)=>{
-//     console.log("error hai bhai " ,error);
-//  }).finally(()=>{
-//     console.log("papa is great ");
-//  })
+const promisefour=new Promise(function(resolve,reject){
+    let error=true;
+    if (!error) {
+        resolve({username:'shubhamvarshney',password:123})
+    }else{
+        reject("error:404")
+    }
+})
+ promisefour
+ .then(function(user){
+    console.log(user)
+    return user.username
+ }).then((username)=>{
+    console.log(username);
+ }).catch((error)=>{
+    console.log("error hai bhai " ,error);
+ }).finally(()=>{
+    console.log("papa is great ");
+ })
 
 
-// const promisefive=new Promise(function(resolve,reject){
-//     setTimeout(()=>{
-//         let error=true
-//         if (!error) {
-//             resolve({username:"shubham varshney",email:"shubh.varshney@gmail.com"})
-//         }else{
-//             reject('error:410')
-//         }
-//     },1000)
-// })
+const promisefive=new Promise(function(resolve,reject){
+    setTimeout(()=>{
+        let error=true
+        if (!error) {
+            resolve({username:"shubham varshney",email:"shubh.varshney@gmail.com"})
+        }else{
+            reject('error:410')
+        }
+    },1000)
+})
 
 // async function consumedpromesefive(){
 //     try {
